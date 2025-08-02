@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/Main.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/Main.java" />
+              <option name="originalContent" value="import br.com.vibebox.model.Favorites;&#10;import br.com.vibebox.model.Podcast;&#10;import br.com.vibebox.model.Song;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        Song musica = new Song();&#10;        musica.setTitulo(&quot;Bohemian Rhapsody&quot;);&#10;        musica.setArtista(&quot;Queen&quot;);&#10;&#10;        for (int i = 0; i &lt; 1000; i++) {&#10;            musica.reproduz();&#10;        }&#10;&#10;        for (int i = 0; i &lt; 50; i++) {&#10;            musica.curte();&#10;        }&#10;&#10;        Podcast podcast = new Podcast();&#10;        podcast.setTitulo(&quot;VibeBox&quot;);&#10;        podcast.setApresentador(&quot;Marcos Rocha&quot;);&#10;&#10;        for (int i = 0; i &lt; 500; i++) {&#10;            podcast.reproduz();&#10;        }&#10;&#10;        for (int i = 0; i &lt; 1000; i++) {&#10;            podcast.curte();&#10;        }&#10;&#10;        Favorites minhasPreferidas = new Favorites();&#10;        preferidas.inclui(musica);&#10;        preferidas.inclui(podcast);&#10;    }&#10;}" />
+              <option name="updatedContent" value="import br.com.vibebox.model.Favorites;&#10;import br.com.vibebox.model.Podcast;&#10;import br.com.vibebox.model.Song;&#10;&#10;public class Main {&#10;    public static void main(String[] args) {&#10;        Song musica = new Song();&#10;        musica.setTitulo(&quot;Bohemian Rhapsody&quot;);&#10;        musica.setArtista(&quot;Queen&quot;);&#10;&#10;        for (int i = 0; i &lt; 1000; i++) {&#10;            musica.reproduz();&#10;        }&#10;&#10;        for (int i = 0; i &lt; 50; i++) {&#10;            musica.curte();&#10;        }&#10;&#10;        Podcast podcast = new Podcast();&#10;        podcast.setTitulo(&quot;VibeBox&quot;);&#10;        podcast.setApresentador(&quot;Marcos Rocha&quot;);&#10;&#10;        for (int i = 0; i &lt; 500; i++) {&#10;            podcast.reproduz();&#10;        }&#10;&#10;        for (int i = 0; i &lt; 1000; i++) {&#10;            podcast.curte();&#10;        }&#10;&#10;        Favorites minhasPreferidas = new Favorites();&#10;        minhasPreferidas.inclui(musica);&#10;        minhasPreferidas.inclui(podcast);&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/br/com/vibebox/model/Podcast.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/br/com/vibebox/model/Podcast.java" />
+              <option name="originalContent" value="package br.com.vibebox.model;&#10;&#10;public class Podcast extends Audio {&#10;    private String apresentador;&#10;    private String descricao;&#10;    private int numeroDeEpisodios;&#10;&#10;    public String getApresentador() {&#10;        return apresentador;&#10;    }&#10;&#10;    public void setApresentador(String apresentador) {&#10;        this.apresentador = apresentador;&#10;    }&#10;&#10;    public String getDescricao() {&#10;        return descricao;&#10;    }&#10;&#10;    public void setDescricao(String descricao) {&#10;        this.descricao = descricao;&#10;    }&#10;&#10;    public int getNumeroDeEpisodios() {&#10;        return numeroDeEpisodios;&#10;    }&#10;&#10;    public void setNumeroDeEpisodios(int numeroDeEpisodios) {&#10;        this.numeroDeEpisodios = numeroDeEpisodios;&#10;    }&#10;&#10;    @Override&#10;    public int getClassificacao() {&#10;        if (this.getTotalDeCurtidas() &gt; 500) {&#10;            return 10;&#10;        } else {&#10;            return 8;&#10;        }&#10;    }&#10;}&#10;" />
+              <option name="updatedContent" value="package br.com.vibebox.model;&#10;&#10;public class Podcast extends Audio {&#10;    private String apresentador;&#10;    private String descricao;&#10;    private int numeroDeEpisodios;&#10;&#10;    public String getApresentador() {&#10;        return apresentador;&#10;    }&#10;&#10;    public void setApresentador(String apresentador) {&#10;        this.apresentador = apresentador;&#10;    }&#10;&#10;    public String getDescricao() {&#10;        return descricao;&#10;    }&#10;&#10;    public void setDescricao(String descricao) {&#10;        this.descricao = descricao;&#10;    }&#10;&#10;    public int getNumeroDeEpisodios() {&#10;        return numeroDeEpisodios;&#10;    }&#10;&#10;    public void setNumeroDeEpisodios(int numeroDeEpisodios) {&#10;        this.numeroDeEpisodios = numeroDeEpisodios;&#10;    }&#10;&#10;    @Override&#10;    public int getClassificacao() {&#10;        if (this.getCurtidas() &gt; 500) {&#10;            return 10;&#10;        } else {&#10;            return 8;&#10;        }&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

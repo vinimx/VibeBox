@@ -1,6 +1,8 @@
 # Vibebox
 
-Vibebox é um projeto Java para gerenciamento de músicas, podcasts e favoritos. O objetivo é simular uma aplicação de streaming de áudio, permitindo adicionar, listar e curtir músicas e podcasts, além de gerenciar uma lista de favoritos.
+<p align="center">
+  <strong>Vibebox</strong> é um projeto Java que simula uma aplicação de <strong>streaming de áudio</strong>, permitindo gerenciar músicas, podcasts e favoritos de forma simples.
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-8%2B-007396?style=for-the-badge&logo=java&logoColor=white" />
@@ -30,12 +32,13 @@ src/
 - **Podcast.java**: Representa um podcast.
 - **Favorites.java**: Gerencia a lista de favoritos.
 
-## Funcionalidades
+## ✨ Funcionalidades
+- ➕ **Adicionar** músicas e podcasts
+- 📋 **Listar** músicas e podcasts
+- ❤️ **Curtir** faixas
+- ⭐ **Gerenciar** lista de favoritos
 
-- Adicionar músicas e podcasts.
-- Listar músicas e podcasts.
-- Curtir músicas e podcasts.
-- Gerenciar favoritos.
+---
 
 ## Como Executar
 

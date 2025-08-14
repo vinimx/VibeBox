@@ -3,6 +3,14 @@
   <component name="CopilotDiffPersistence">
     <option name="pendingDiffs">
       <map>
+        <entry key="$PROJECT_DIR$/README.md">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/README.md" />
+              <option name="updatedContent" value="# Vibebox&#10;&#10;Vibebox é um projeto Java para gerenciamento de músicas, podcasts e favoritos. O objetivo é simular uma aplicação de streaming de áudio, permitindo adicionar, listar e curtir músicas e podcasts, além de gerenciar uma lista de favoritos.&#10;&#10;## Estrutura do Projeto&#10;&#10;```&#10;Vibebox.iml&#10;src/&#10;  Main.java&#10;  br/&#10;    com/&#10;      vibebox/&#10;        model/&#10;          Audio.java&#10;          Favorites.java&#10;          Podcast.java&#10;          Song.java&#10;```&#10;&#10;- **Main.java**: Ponto de entrada da aplicação.&#10;- **Audio.java**: Classe base para tipos de áudio.&#10;- **Song.java**: Representa uma música.&#10;- **Podcast.java**: Representa um podcast.&#10;- **Favorites.java**: Gerencia a lista de favoritos.&#10;&#10;## Funcionalidades&#10;&#10;- Adicionar músicas e podcasts.&#10;- Listar músicas e podcasts.&#10;- Curtir músicas e podcasts.&#10;- Gerenciar favoritos.&#10;&#10;## Como Executar&#10;&#10;1. Certifique-se de ter o Java instalado (JDK 8+).&#10;2. Compile os arquivos:&#10;   ```&#10;   javac src/Main.java src/br/com/vibebox/model/*.java&#10;   ```&#10;3. Execute o programa:&#10;   ```&#10;   java -cp src Main&#10;   ```&#10;&#10;## Requisitos&#10;&#10;- Java 8 ou superior&#10;&#10;## Exemplos de Uso&#10;&#10;- Adicionar uma música:&#10;  ```java&#10;  Song musica = new Song(&quot;Nome&quot;, &quot;Artista&quot;, 2024);&#10;  ```&#10;- Adicionar um podcast:&#10;  ```java&#10;  Podcast podcast = new Podcast(&quot;Título&quot;, &quot;Host&quot;, 10);&#10;  ```&#10;- Adicionar aos favoritos:&#10;  ```java&#10;  Favorites favoritos = new Favorites();&#10;  favoritos.add(musica);&#10;  favoritos.add(podcast);&#10;  ```&#10;&#10;## Contribuição&#10;&#10;Pull requests são bem-vindos! Para grandes mudanças, abra uma issue primeiro para discutir o que deseja modificar.&#10;&#10;## Licença&#10;&#10;Este projeto está sob a licença MIT.&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/Main.java">
           <value>
             <PendingDiffInfo>
